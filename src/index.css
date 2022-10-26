@@ -1,13 +1,118 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+ 
+}
+
+.header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.footer p {
+  color: #ccc;
+}
+/* Note */
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.delete-btn{
+  text-align: right;
+}
+
+.note button{
+  background-color:transparent;
+  color:#f5ba13;
+  border-style: hidden;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+
+/* Create Note */
+.create-note{
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.create-note input {
+  display: block;
+  border: 0;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  width: 100%;
+  height: 40px;
+  margin: 1% auto 3% auto;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.create-note textarea {
+  display: block;
+  border: 0;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  width: 100%;
+  margin: 1% auto 3% auto;
+  font-size: 1.2rem;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.create-note button{
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  background-color: #f5ba13;
+  color:gray;
+  border-style: hidden;
+  text-align: center;
+  position: absolute;
+  right: 35px;
 }
