@@ -33,7 +33,7 @@ function App() {
         <CreateNote onCreated={addNote} />
       </Grid>
       <Grid container spacing={2} xs={12} lg={12}>
-        {noteList.map((note, index) => { return <Grid xs={12} sm={6} md={4} lg={3}> <Note key={index} id={index} title={note.title} content={note.content} onDeleted={deleteNote} /> </Grid> })}
+        {noteList.map((note, index) => { return <Grid xs={12} sm={12} md={4} lg={3}> <Note key={index} id={index} title={note.title} content={note.content} onDeleted={deleteNote} /> </Grid> })}
       </Grid>
       <Grid item xs={12} lg={12}>
         <Footer />
