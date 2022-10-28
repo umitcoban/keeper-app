@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from "./components/App";
 import reportWebVitals from './reportWebVitals';
+import "@fontsource/alfa-slab-one"
+import "@fontsource/mr-dafoe"
+import "@fontsource/bree-serif"
+import "@fontsource/open-sans"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

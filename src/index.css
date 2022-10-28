@@ -19,6 +19,8 @@ body {
 }
 
 .header {
+
+  font-family: "Alfa Slab One", sans-serif;
   background-color: #f5ba13;
   margin: auto -16px;
   padding: 16px 32px;
@@ -26,8 +28,8 @@ body {
 }
 
 .header h1 {
+  margin-left: 10px;
   color: #fff;
-  font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
@@ -46,7 +48,8 @@ body {
 }
 
 .footer p {
-  color: #ccc;
+  color: rgb(131, 128, 128);
+  font-family: "Mr Dafoe", sans-serif;
 }
 /* Note */
 .note {
@@ -54,12 +57,13 @@ body {
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-  width: 240px;
+  width: 80%;
   margin: 16px;
 }
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
+  font-family: "Bree Serif", serif;
 }
 .note p {
   font-size: 1.1em;
@@ -87,7 +91,7 @@ body {
 /* Create Note */
 .create-note{
   position: relative;
-  width: 480px;
+  width: 90%;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
@@ -96,6 +100,7 @@ body {
 }
 
 .create-note input {
+  font-family: "Bree Serif", serif;
   border: 0;
   width: 100%;
   border-color: transparent;
@@ -104,7 +109,6 @@ body {
   margin: 1% auto 3% auto;
   font-size: 1.6rem;
   text-align: left;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .create-note textarea {
@@ -116,7 +120,7 @@ body {
   margin: 1% auto 3% auto;
   font-size: 1.2rem;
   text-align: left;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Open Sans", sans-serif;
   
 }
 
