@@ -12,6 +12,12 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
 }
 
+/* root */
+
+#root{
+  display: grid;
+}
+
 .header {
   background-color: #f5ba13;
   margin: auto -16px;
