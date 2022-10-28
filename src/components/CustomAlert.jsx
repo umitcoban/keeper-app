@@ -1,7 +1,6 @@
 import React from "react";
 import { Alert, AlertTitle } from '@material-ui/lab/';
 import Fade from '@material-ui/core/Fade';
-import { duration } from "@material-ui/core";
 
 const customAlertStyle = {
     margin: "1% auto",
