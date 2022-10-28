@@ -9,6 +9,7 @@ html {
 body {
   background: #eee;
   padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
 }
 
 .header {
@@ -16,7 +17,6 @@ body {
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
- 
 }
 
 .header h1 {
@@ -26,10 +26,16 @@ body {
 }
 
 .footer {
+  display: flex;
   position: absolute;
+  bottom: 0px;
+  right: 50%;
+  left: 50%;
+  width:max-content;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
   text-align: center;
-  bottom: 0;
-  width: 100%;
   height: 2.5rem;
 }
 
@@ -44,7 +50,6 @@ body {
   padding: 10px;
   width: 240px;
   margin: 16px;
-  float: left;
 }
 .note h1 {
   font-size: 1.1em;
@@ -59,6 +64,9 @@ body {
 
 .delete-btn{
   text-align: right;
+}
+.delete-btn button{
+  cursor: pointer;
 }
 
 .note button{
@@ -82,25 +90,26 @@ body {
 }
 
 .create-note input {
-  display: block;
   border: 0;
-  box-shadow: 0 1px 5px rgb(138, 137, 137);
   width: 100%;
+  border-color: transparent;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
   height: 40px;
   margin: 1% auto 3% auto;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: left;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .create-note textarea {
   display: block;
+  border-color: transparent;
   border: 0;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
   width: 100%;
   margin: 1% auto 3% auto;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
@@ -115,4 +124,5 @@ body {
   text-align: center;
   position: absolute;
   right: 35px;
+  cursor: pointer;
 }
